@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="html" href="index.html">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <button class="INICIO" onclick="index()">INICIO</button>
+                <img class="logo1" src="assets/img/logo1.png"></img>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="slider2">
+            <img src="assets/img/img.jpg" alt="Imagen 1"></img>
+        </section>
+    </main>
+
+    <main>
+        <div class="cajaTexto">
+            <div class="MensajeSecreto">
+                <textarea id="textoSecreto" placeholder="Escribe o pega tu mensaje secreto aquí"></textarea>
+            </div>
+            <div class="textoclave">
+                <br>
+                <label for="claveSecreta">Clave secreta:</label>
+                <input type="number" id="claveSecreta" value="5">
+                <br>
+            </div>
+            <div class="botón1"></div>
+            <nav>
+                <ul>
+                    <button onclick="cifrar()">Cifrar</button>
+                </ul>
+        </div>
+
+        <div class="botón2">
+            <ul>
+                <button onclick="descifrar()">Descifrar</button>
+            </ul>
+            </nav>
+        </div>
+
+        </br>
+        </div>
+        <textarea id="resultado" readonly placeholder="Resultado"></textarea>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Todos los derechos reservados - María Tapia</p>
+    </footer>
+
+
+    <div id="myContent"></div>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
